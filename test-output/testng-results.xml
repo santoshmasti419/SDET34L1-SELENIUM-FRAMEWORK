@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-26T17:22:53 IST" name="Default suite" finished-at="2022-05-26T17:23:16 IST" duration-ms="23236">
+    <groups>
+    </groups>
+    <test started-at="2022-05-26T17:22:53 IST" name="Default test" finished-at="2022-05-26T17:23:16 IST" duration-ms="23236">
+      <class name="com.vtiger.campiagnTest.CreateCampaignTest">
+        <test-method is-config="true" signature="beforeSuiteTest()[pri:0, instance:com.vtiger.campiagnTest.CreateCampaignTest@67e28be3]" started-at="2022-05-26T17:22:51 IST" name="beforeSuiteTest" finished-at="2022-05-26T17:22:53 IST" duration-ms="1931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteTest -->
+        <test-method is-config="true" signature="beforeClass1Test()[pri:0, instance:com.vtiger.campiagnTest.CreateCampaignTest@67e28be3]" started-at="2022-05-26T17:22:53 IST" name="beforeClass1Test" finished-at="2022-05-26T17:22:58 IST" duration-ms="5238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass1Test -->
+        <test-method is-config="true" signature="beforeMethod1Test()[pri:0, instance:com.vtiger.campiagnTest.CreateCampaignTest@67e28be3]" started-at="2022-05-26T17:22:58 IST" name="beforeMethod1Test" finished-at="2022-05-26T17:23:01 IST" duration-ms="3080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod1Test -->
+        <test-method signature="createCampiagnTest()[pri:0, instance:com.vtiger.campiagnTest.CreateCampaignTest@67e28be3]" started-at="2022-05-26T17:23:02 IST" name="createCampiagnTest" finished-at="2022-05-26T17:23:14 IST" duration-ms="12049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCampiagnTest -->
+        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:com.vtiger.campiagnTest.CreateCampaignTest@67e28be3]" started-at="2022-05-26T17:23:14 IST" name="afterMethodTest" finished-at="2022-05-26T17:23:16 IST" duration-ms="2074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="aftreClass1Test()[pri:0, instance:com.vtiger.campiagnTest.CreateCampaignTest@67e28be3]" started-at="2022-05-26T17:23:16 IST" name="aftreClass1Test" finished-at="2022-05-26T17:23:16 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftreClass1Test -->
+        <test-method is-config="true" signature="afterSuite1Test()[pri:0, instance:com.vtiger.campiagnTest.CreateCampaignTest@67e28be3]" started-at="2022-05-26T17:23:16 IST" name="afterSuite1Test" finished-at="2022-05-26T17:23:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite1Test -->
+      </class> <!-- com.vtiger.campiagnTest.CreateCampaignTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

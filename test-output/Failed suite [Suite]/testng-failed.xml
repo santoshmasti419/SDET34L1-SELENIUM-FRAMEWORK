@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="firefox(failed)(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.vtiger.productTest.CreateProductTest">
+        <methods>
+          <include name="beforeClass1Test"/>
+          <include name="beforeMethod1Test"/>
+          <include name="createProductName"/>
+          <include name="aftreClass1Test"/>
+          <include name="afterMethodTest"/>
+          <include name="beforeSuiteTest"/>
+          <include name="afterSuite1Test"/>
+        </methods>
+      </class> <!-- com.vtiger.productTest.CreateProductTest -->
+      <class name="com.vtiger.campiagnTest.CreateCampaignTest">
+        <methods>
+          <include name="beforeClass1Test"/>
+          <include name="createCampiagnTest"/>
+          <include name="beforeMethod1Test"/>
+          <include name="aftreClass1Test"/>
+          <include name="afterMethodTest"/>
+          <include name="beforeSuiteTest"/>
+          <include name="afterSuite1Test"/>
+        </methods>
+      </class> <!-- com.vtiger.campiagnTest.CreateCampaignTest -->
+      <class name="com.vtiger.contactTest.CreateContactWithOrganizationTest">
+        <methods>
+          <include name="createContact"/>
+          <include name="beforeClass1Test"/>
+          <include name="beforeMethod1Test"/>
+          <include name="aftreClass1Test"/>
+          <include name="afterMethodTest"/>
+          <include name="beforeSuiteTest"/>
+          <include name="afterSuite1Test"/>
+        </methods>
+      </class> <!-- com.vtiger.contactTest.CreateContactWithOrganizationTest -->
+      <class name="com.vtiger.organizationTest.CreateOrganizationByGivingIndustryTypeTest">
+        <methods>
+          <include name="beforeClass1Test"/>
+          <include name="beforeMethod1Test"/>
+          <include name="aftreClass1Test"/>
+          <include name="afterMethodTest"/>
+          <include name="beforeSuiteTest"/>
+          <include name="createOrganizationByGivingIndustryType"/>
+          <include name="afterSuite1Test"/>
+        </methods>
+      </class> <!-- com.vtiger.organizationTest.CreateOrganizationByGivingIndustryTypeTest -->
+      <class name="com.vtiger.contactTest.CreateContactTest">
+        <methods>
+          <include name="beforeClass1Test"/>
+          <include name="createContact"/>
+          <include name="beforeMethod1Test"/>
+          <include name="aftreClass1Test"/>
+          <include name="afterMethodTest"/>
+          <include name="beforeSuiteTest"/>
+          <include name="afterSuite1Test"/>
+        </methods>
+      </class> <!-- com.vtiger.contactTest.CreateContactTest -->
+      <class name="com.vtiger.campiagnTest.CreateCampaignAlongWithProductTest">
+        <methods>
+          <include name="beforeClass1Test"/>
+          <include name="beforeMethod1Test"/>
+          <include name="aftreClass1Test"/>
+          <include name="afterMethodTest"/>
+          <include name="beforeSuiteTest"/>
+          <include name="createProductByCampiagn"/>
+          <include name="afterSuite1Test"/>
+        </methods>
+      </class> <!-- com.vtiger.campiagnTest.CreateCampaignAlongWithProductTest -->
+      <class name="com.vtiger.documentsTest.CreateDocumentsTest">
+        <methods>
+          <include name="createDocuments"/>
+          <include name="beforeClass1Test"/>
+          <include name="beforeMethod1Test"/>
+          <include name="aftreClass1Test"/>
+          <include name="afterMethodTest"/>
+          <include name="beforeSuiteTest"/>
+          <include name="afterSuite1Test"/>
+        </methods>
+      </class> <!-- com.vtiger.documentsTest.CreateDocumentsTest -->
+    </classes>
+  </test> <!-- firefox(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
